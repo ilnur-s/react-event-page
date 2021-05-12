@@ -252,9 +252,14 @@ body {
   border-radius: 0 10px 0 0;
 }
 
-.first-block_hide,
+.first-block_hide {
+  position: absolute;
+  left: -2000px;
+}
+
 .second-block_hide {
-  display: none;
+  position: absolute;
+  right: -2000px;
 }
 
 .first-block__text {
