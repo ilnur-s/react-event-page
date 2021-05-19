@@ -373,7 +373,7 @@ body {
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 700px) {
   .header__title {
     margin-left: 0px;
     order: 0
@@ -402,6 +402,118 @@ body {
     padding-top: 0px;
   }
 
+  .main__outer-circle {
+    margin-top: 213px;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .main__inner-circle {
+    width: 301.75px;
+    height: 301.75px;
+    margin: 99.5px auto;
+  }
+
+  .hexagon-1 {
+    width: 42.6px;
+    height: 71.5px;
+    margin-left: 21.3px;
+    margin-top: 347.9px;
+    border-radius: 4px;
+  }
+
+  .hexagon-2 {
+    width: 55.38px;
+    height: 93.72px;
+    margin-left: 99.4px;
+    margin-top: 284px;
+    border-radius: 5px;
+  }
+
+  .hexagon-3 {
+    height: 143px;
+    width: 85.2px;
+    margin-left: 205.9px;
+    margin-top: 184px;
+    border-radius: 6px;
+  }
+
+  .hexagon-4 {
+    width: 55.38px;
+    height: 93.72px;
+    margin-left: 340.8px;
+    margin-top: 134.9px;
+    border-radius: 5px;
+  }
+
+  .hexagon-5 {
+    width: 42.6px;
+    height: 71.5px;
+    margin-left: 437.36px;
+    margin-top: 92.3px;
+    border-radius: 4px;
+  }
+
+  .hexagon--1,
+  .hexagon-0 {
+    transform: translate(-2000, 3000px);
+  }
+  .hexagon-6,
+  .hexagon-7 {
+    transform: translate(2000, -3000px);
+  }
+
+  .hexagon__title {
+    font-size: 17px;
+    word-spacing: 30px;
+  }
+
+  .hexagon__subtitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .first-block__text,
+  .second-block__text,
+  .hexagon__title_bold {
+    font-size: 24px;
+  }
+
+  .hexagon__button {
+    padding: 5px;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+
+  .first-block {
+    top: 397.6px;
+    width: 40%;
+    border-top: 71px solid #ffffff;
+    border-right: 42px solid transparent;
+    border-radius: 0 3px 0 0;
+  }
+
+  .first-block__text {
+    right: 20px;
+    top: -70px;
+  }
+
+  .second-block {
+    top: 473.7px;
+    width: 40%;
+    border-bottom: 68px solid #ffffff;
+    border-left: 42px solid transparent;
+    border-radius: 0 0 0 3px;
+  }
+
+  .second-block__text {
+    left: 15px;
+    top: 20px;
+  }
+
+}
+
+@media (max-width: 500px) {
   .main__outer-circle {
     margin-top: 150px;
     width: 350px;
